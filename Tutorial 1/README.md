@@ -99,4 +99,5 @@ Try to click the ![wrench](readmeImages/wrench.png =30x) wrench button on each o
 ---
 
 <a name="1">1</a>: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphy.
+
 <a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphy.
