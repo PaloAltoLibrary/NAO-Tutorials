@@ -96,7 +96,7 @@ Click the ![play](readmeImages/play.png =30x) ***play button*** on the tool bar 
  
  [^2]: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphy.
 
-##Exercises
+## Exercises
 
 Try to click the ![wrench](readmeImages/wrench.png =30x) wrench button on each of the boxes, and play around with the parameters to get slightly different behavior.
 
