@@ -60,10 +60,8 @@ Finally, click the ![play](play.png =30x) ***play button*** on the tool bar. The
 
 Click the ![save](readmeImages/save.png =30x) save button to save the project, and rename the project as "Hello World". It is always a good habit to constantly save the project during programming.
 
- *Related Resource* [^1]
+ *Related Resource* <sup>[1](#1)</sup>
  
- [^1]: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphy.
-
 ### Make NAO Say Anything
 
 We will do this by modifying the previous project.
@@ -76,7 +74,7 @@ Replace the “Hello” in the text box with “Hello World!” or anything you 
 
 Click the ![play](readmeImages/play.png =30x) ***play button*** on the tool bar and see the result.
 
- *Related Resource* [^1]
+ *Related Resource* <sup>[1](#1)</sup>
 
 ### Make NAO Walk While Talking
 
@@ -92,11 +90,13 @@ As a note, the Motor on/off box will turn the stiffness of the motors on or off.
 
 Click the ![play](readmeImages/play.png =30x) ***play button*** on the tool bar and see the result. NAO will say something, walk for a few steps and then rest.
 
- *Related Resource* [^2]
+ *Related Resource* <sup>[2](#2)</sup>
  
- [^2]: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphy.
-
 ## Exercises
 
 Try to click the ![wrench](readmeImages/wrench.png =30x) wrench button on each of the boxes, and play around with the parameters to get slightly different behavior.
 
+---
+
+<a name="1">1</a>: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphy.
+<a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphy.
