@@ -1,6 +1,6 @@
 # Tutorial 1 -- Introduction of Choregraphe
 
-Welcome to NAO robot programming. This tutorial covers the basics of using Choregraphy, the native software for the humanoid robot NAO.
+Welcome to NAO robot programming. This tutorial covers the basics of using Choregraphe, the native software for the humanoid robot NAO.
 
 The beauty of Choregraphe lies in that you do not necessarily need a real robot sit next to you to develop your applications. Instead, most of the times, you can simply develop and test your application with the virtual robot inside the software.
 
@@ -91,13 +91,14 @@ As a note, the Motor on/off box will turn the stiffness of the motors on or off.
 Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result. NAO will say something, walk for a few steps and then rest.
 
  *Related Resource* <sup>[2](#2)</sup>
+
  
-## Exercises
+## Exercise
 
 Try to click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** on each of the boxes, and play around with the parameters to get slightly different behavior.
 
 ---
 
-<a name="1">1</a>: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphy.
+<a name="1">1</a>: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphe.
 
-<a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphy.
+<a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphe.
