@@ -32,17 +32,17 @@ In the panels area, several panels can share a same place, and you can usually t
 
 ### Rearrange and Resize Panels
 
-You can simply drag a panel around, and put it into desired place. You can also make a panel separate from the Choregraphe interface by clicking the <img src="readmeImages/panel.png" width=20 /> new panel button located on the left top corner of each panel. Once you click the button, the panel will become a stand-alone window, and you can resize it to have a clearer view what is inside the panel -- I usually use this trick for the robot viewer panel, so I can monitor the virtual robot's movement more closely when testing an application.
+You can simply drag a panel around, and put it into desired place. You can also make a panel separate from the Choregraphe interface by clicking the <img src="readmeImages/panel.png" width=20 /> new panel button located on the left top corner of each panel. Once you click the button, the panel will become a stand-alone window, and you can resize it to have a clearer view of what is inside the panel -- I usually use this trick for the robot viewer panel, so I can monitor the virtual robot's movement more closely when testing an application.
 
 ### Connect to Virtual Robot
 
-Click "Connection" on the top menu bar, and choose to "Connect to the virtual robot" if you have not dones so yet. Once successfully connected, you are expected to see a robot appear in the robot viewer panel. 
+Click "Connection" on the top menu bar, and choose to "Connect to the virtual robot" if you have not done so yet. Once successfully connected, you are expected to see a robot appear in the robot viewer panel. 
 
-If you did not see a robot viewer panel, please refer to [Display/Hide Panels](#displayPanel) in the previous section.
+If you do not see a robot viewer panel in the panels area, please refer to [Display/Hide Panels](#displayPanel) in the previous section.
 
 ### Make the NAO Say Something
 
-The first thing to do when you want to develop a new applilcation is to click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project. 
+The first thing to do when you develop a new applilcation in Choregraphy is to click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project. 
 
 We will start a new program for a very simple task to make NAO say something. 
 
@@ -56,7 +56,7 @@ The last box's <img src="readmeImages/chore_output_onstopped_outside.png" width=
 
 ![first program](readmeImages/firstprogram.png =800x)
 
-Finally, click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar. The virtual robot should have a text bubble dislay on top of its head.
+Finally, click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar. The virtual robot should have a text bubble dislaying on top of its head.
 
 Click the <img src="readmeImages/save.png" width=20 /> ***save button*** to save the project, and rename the project as "Hello World". It is always a good habit to constantly save the project during programming.
 
@@ -86,7 +86,7 @@ Look at the box libraries panel. Navigate to Motion, then drag and drop a “Mot
 
 the <img src="readmeImages/walk.png" width=500 />
 
-As a note, the Motor on/off box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints by hand.
+As a note, the Motor on/off box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints manually.
 
 Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result. NAO will say something, walk for a few steps and then rest.
 
@@ -95,7 +95,7 @@ Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the 
  
 ## Exercise
 
-Try to click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** on each of the boxes, and play around with the parameters to get slightly different behavior.
+Try to click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** on each of the boxes, and play around with the parameters to get slightly different behaviors.
 
 ---
 
