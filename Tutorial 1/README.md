@@ -84,7 +84,7 @@ Go to the root of the previous project.
 
 Look at the box libraries panel. Navigate to Motion, then drag and drop a “Motion On/Off” box, a "Stand Up" box, a "Walk to" box and a "Rest" box to the flow diagram panel. Connect the boxes in the following way:
 
-the <img src="readmeImages/walk.png" width=500 />
+<img src="readmeImages/walk.png" width=500 />
 
 As a note, the Motor on/off box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints manually.
 
