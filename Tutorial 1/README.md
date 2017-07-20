@@ -40,7 +40,7 @@ Click "Connection" on the top menu bar, and choose to "Connect to the virtual ro
 
 If you do not see a robot viewer panel in the panels area, please refer to [Display/Hide Panels](#displayPanel) in the previous section.
 
-### Make the NAO Say Something
+### Make NAO Say Something
 
 The first thing to do when you develop a new applilcation in Choregraphy is to click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project. 
 
