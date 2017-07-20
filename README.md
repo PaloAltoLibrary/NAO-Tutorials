@@ -28,7 +28,7 @@ Spoken languages | Nao can speak [19 languages](http://doc.aldebaran.com/1-14/ne
 
 ## Operation System and Programming Language
 
-Threre are different tools for different levels of users. The tutorials in this repository will mainly forcus on [Non-developers](#Non-developers) and [Beginner developers](#Beginner_developers).
+Threre are different tools for different levels of users. The tutorials in this repository will mainly forcus on [Non-developers](#Non-developers) and [Beginner developers](#Beginner-developers).
 
 ### Non-developers
 
@@ -43,4 +43,5 @@ For non-developers there is the Integrated Development Environment (IDE) Choreog
 People with rudimentary programming skills can write Python code and add it to Choreographe. 
 
 ### Expert developers
-Expert Developers canchoose from - C++, Python, MatLab and many more through their SDK’s. 
+
+Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
