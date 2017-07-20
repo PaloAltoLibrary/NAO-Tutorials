@@ -1,6 +1,6 @@
 # Tutorial 1 -- Introduction of Choregraphe
 
-Welcome to NAO robot programming. This tutorial covers the basics of using Choregraphe, the native software for the humanoid robot NAO.
+Welcome to NAO robot programming. This tutorial covers the basics of using Choregraphe, a simple drag and rop interface for programming the humanoid robot NAO.
 
 The beauty of Choregraphe lies in that you do not necessarily need a real robot sit next to you to develop your applications. Instead, most of the times, you can simply develop and test your application with the virtual robot inside the software.
 
