@@ -2,13 +2,22 @@
 
 Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
 
+<img src="./Tutorial 1/readmeImages/naostorytime.jpg" width="500px"/>
+
+
+*NAO dances with customers at Palo Alto City Library*
+
 ## About NAO
 
 Nao (pronounced now) is an autonomous, programmable humanoid robot developed by Aldebaran Robotics. Aldebaran Roboticswas acquired by Japan's SoftBank Mobile in 2013.
 
 Nao robots have been used for research and education purposes in numerous academicinstitutions worldwide.
 
-This tutorial is based on NAO version 5. Here is the specifications for Nao V5 Evolution (2014) :
+This tutorial is based on NAO version 5. 
+
+<img src="./Tutorial 1/readmeImages/nao_h25_pres.png" width="500px"/>
+
+Here is the specifications for Nao V5 Evolution (2014) :
 
 Name | Value
 --- | ---
