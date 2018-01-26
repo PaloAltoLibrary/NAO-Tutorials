@@ -1,3 +1,4 @@
+
 # NAO Tutorials 
 
 Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
@@ -54,4 +55,5 @@ People with rudimentary programming skills can write Python code and add it to C
 ### Expert developers
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
-<div style="float:right;"><h3><a href="Tutorial/README1.md">Next</a></h3></div>
+
+<h3 align="right"><a href="Tutorial/README1.md">Next</a></h3> 

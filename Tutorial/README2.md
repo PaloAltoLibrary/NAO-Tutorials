@@ -63,5 +63,3 @@ Make sure Choreograph is connected to the virutal robot. Click the the <img src=
 ---
 
 <a name="1">1</a>: Download [Walk](Walk.crg) and open it in your Choregraphe.
-
-<h3 style="float:left;"><a href="README1.md">Previous</a></h3>

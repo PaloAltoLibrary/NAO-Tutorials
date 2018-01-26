@@ -109,6 +109,4 @@ Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the 
 
 <a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphe.
 
-<h3 style="float:left;"><a href="../README.md">Previous</a></h3>
-
-<h3 style="float:right;"><a href="README2.md">Next</a></h3>
+<h3 align="right"><a href="README2.md" >Next</a><h3>
