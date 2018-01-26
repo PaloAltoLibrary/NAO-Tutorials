@@ -2,7 +2,7 @@
 
 Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
 
-<img src="./Tutorial 1/readmeImages/naostorytime.jpg" width="500px"/>
+<img src="./Tutorial/readmeImages/naostorytime.jpg" width="500px"/>
 
 
 *NAO dances with customers at Palo Alto City Library*
@@ -15,7 +15,7 @@ Nao robots have been used for research and education purposes in numerous academ
 
 This tutorial is based on NAO version 5. 
 
-<img src="./Tutorial 1/readmeImages/nao_h25_pres.png" width="500px"/>
+<img src="./Tutorial/readmeImages/nao_h25_pres.png" width="500px"/>
 
 Here is the specifications for Nao V5 Evolution (2014) :
 
@@ -55,4 +55,4 @@ People with rudimentary programming skills can write Python code and add it to C
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
 
-<h3 style="float: right;"><a href="Tutorial/READEME1.md">Next</a></h3>
+<h3 style="float: right;"><a href="Tutorial/README1.md">Next</a></h3>
