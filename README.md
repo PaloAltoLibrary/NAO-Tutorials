@@ -1,4 +1,4 @@
-# NAO Tutorials
+# NAO Tutorials 
 
 Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
 
@@ -11,7 +11,7 @@ Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made p
 
 Nao (pronounced now) is an autonomous, programmable humanoid robot developed by Aldebaran Robotics. Aldebaran Roboticswas acquired by Japan's SoftBank Mobile in 2013.
 
-Nao robots have been used for research and education purposes in numerous academicinstitutions worldwide.
+Nao robots have been used for research and education purposes in numerous academic institutions worldwide.
 
 This tutorial is based on NAO version 5. 
 
@@ -54,3 +54,5 @@ People with rudimentary programming skills can write Python code and add it to C
 ### Expert developers
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
+
+<h3 style="float: right;"><a href="Tutorial/READEME1.md">Next</a></h3>
