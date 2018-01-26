@@ -55,4 +55,4 @@ People with rudimentary programming skills can write Python code and add it to C
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
 
-<h3 style="float: right;"><a href="Tutorial/README1.md">Next</a></h3>
+<h3 style="float:right;"><a href="Tutorial/README1.md">Next</a></h3>
