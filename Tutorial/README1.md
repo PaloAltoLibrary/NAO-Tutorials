@@ -15,7 +15,7 @@ For Palo Alto City Library users, please follow the steps to download and instal
 
 1. Visit the [Aldebaran website](https://aldebaran.com/en) choose sign in then create an account.
 2. After creating an account, download the Choreographe software.
-3. Enter your [license key](http://www.cityofpaloalto.org/gov/depts/lib/nao_registration_form.asp) during the installation of the software.
+3. Enter your [license key](https://library.cityofpaloalto.org/get-started-with-nao-robot/) during the installation of the software.
 
 ## Basics of Choregraphe
 
