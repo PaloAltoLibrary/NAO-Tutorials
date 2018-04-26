@@ -107,3 +107,5 @@ Click the the <img src="readmeImages/play.png" width=20 /> ***play button*** on 
 2. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/alspeechrecognition.html">Documentation on Speech recognition</a>
 3. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog.html">Documentation on Diaglog</a>
 4. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog_syntax_toc.html">Documentation on QiChat (syntax for topics and rules used by Dialog)</a> 
+
+<h3 align="right"><a href="README4.md" >Next</a><h3>
