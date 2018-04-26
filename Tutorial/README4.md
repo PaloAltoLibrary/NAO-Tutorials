@@ -66,9 +66,9 @@ First, let get familiar with the buttons and marks inside the Timeline:
 * ***Add New Behavior***: You can add a new behavior layer.For example, you could have a layer to  play songs and twinkle eyes while the robot is dancing.
 * ***Remove a Behavior***: Remove behavior layers.
 
-Caution: 
-* We recommend to start your dance at frame 15, so the robot has time to transit to the first pose. 
-* We recommend the robot start dance from a standing pose.
+:exclamation: We recommend to start your dance at frame 15, so the robot has time to transit to the first pose. 
+
+:exclamation: We recommend the robot start dance from a standing pose.
 
 Now the fun part start.
 
