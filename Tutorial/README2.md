@@ -3,25 +3,22 @@
 ## Objectives
 
 * How to make NAO walk in different patterns using Choregraphe
-* The (x, y) coordinate plane of NAO
-* How to convert an (x, y) coordinate into an angle to turn, and a distance to walk
-* How to make NAO turn and walk to an (x, y) point using Choregraphe
+* How to make NAO turn and walk to a point using Choregraphe
 
 Anytime you have difficulty to read the interface of Choregraphe, please refer to the [interface graph in Tutorial 1](https://github.com/PaloAltoLibrary/NAO-Tutorials/blob/master/Tutorial%201/README.md#basics-of-choregraphe).
 
 
-### The (x, y) Coordinate Plane of NAO
+### Understand how to control NAO movement
 
-Axis | Direction
+In the `Move To` boxe, you will be able to set up parameters to make the robot move around.
+
+Parameters | Direction
 --- | --- 
-X | Points forward
-Y | Points to the left of the robot.
-Z | Points up, perpendicular to both the x and y
-The units of NAO’s (x, y) coordinate plane are meters.***Quick quiz:*** What does (1, 2) mean?
-<img src="readmeImages/coordinate.png" width=800 />
-In addition to points in the (x, y) coordinate plane, angles are also defined. An angle is measured counterclockwise from the x-axis, as shown by θ in the figure above.
-### Move Around
-The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project. 
+Distance X | Positive value means moving forward, negative means backward
+Distance Y | Positive value means moving left, negative means right
+Theta | Positive value means turning anticlockwise, negative means clockwise
+The units of distance parameters are meters.<img src="readmeImages/coordinate.png" width=800 />### Move Around
+The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
 
 We will start a new program for a very simple task to make NAO walk. 
 
@@ -40,7 +37,11 @@ Connect the boxes in the following way:
 
 As a note, the ***Motor on/off*** box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints manually.
 
- *Related Resource* <sup>[1](#1)</sup>
+We needs to link the both the successa nd unsuccess outputs of the `Move To` box because of odometry error.
+
+In robotics, the estimated change in position of a robot measured from sensors is called its odometry. The difference between how far the robot actually moves and the destination you entered is called odometry error. This is an error that cannot get corrected<sup>[3](#3)</sup>. 
+
+ *Related Resource* <sup>[2](#2)</sup>
 
 #### Make the Robot Turn to a Direction
 
@@ -54,6 +55,7 @@ Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lo
 
 Make sure Choreograph is connected to the virutal robot. Click the the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result.
 
+
 #### Exercise
 
 1. Imagine the robot's coordinate is at (0,0), try to set up the first ***Walk To*** box, so the robot will move to a spot that is 1 meter to the right and half meter forward.
@@ -61,7 +63,8 @@ Make sure Choreograph is connected to the virutal robot. Click the the <img src=
 3. Having NAO walk in square, triangle, or another different type of polygon.
 
 ---
-
-<a name="1">1</a>: Download [Walk](Walk.crg) and open it in your Choregraphe.
+1. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
+1. <a name="2"></a>Download [Walk](Walk.crg) and open it in your Choregraphe.
+1. <a name="3"></a>[Google Scholar papers on causes of odometry erros](https://scholar.google.com/scholar?q=causes+of+odometry+error&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwjd5Z_JtNbaAhXJwFQKHbiCDdwQgQMIJzAA)
 
 <h3 align="right"><a href="README3.md" >Next</a><h3>

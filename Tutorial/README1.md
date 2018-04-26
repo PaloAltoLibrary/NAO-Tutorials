@@ -47,7 +47,7 @@ If you do not see a robot viewer panel in the panels area, please refer to [Disp
 
 ### Make NAO Say Something
 
-The first thing to do when you develop a new applilcation in Choregraphy is to click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project. 
+The first thing to do when you develop a new applilcation in Choregraphy is to click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
 
 We will start a new program for a very simple task to make NAO say something. 
 
@@ -79,7 +79,7 @@ Replace the “Hello” in the text box with “Hello World!” or anything you 
 
 Click the the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result.
 
- *Related Resource* <sup>[1](#1)</sup>
+ *Related Resource* <sup>[2](#2)</sup>
 
 ### Make NAO Walk While Talking
 
@@ -91,22 +91,25 @@ Look at the box libraries panel. Navigate to Motion, then drag and drop a “Mot
 
 <img src="readmeImages/walk.png" width=500 />
 
-As a note, the Motor on/off box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> wrench button at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints manually.
+As a note, the Motor on/off box will turn the stiffness of the motors on or off. Click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** at the lower left corner of the box and you can select the value for the parameter. By default, the parameter is set to "On", which means the robot will become stiff, so that you cannot move the robot’s joints manually.
 
 Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result. NAO will say something, walk for a few steps and then rest.
 
- *Related Resource* <sup>[2](#2)</sup>
+ *Related Resource* <sup>[3](#3)</sup>
 
  
 ## Exercise
 
 * Try to click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** on each of the boxes, and play around with the parameters to get slightly different behaviors.
-* Have NAO introduce itself.
+* Have NAO walk in diffrent directions while introducing itself like a superstar.
 
 ---
-
-<a name="1">1</a>: Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphe.
-
-<a name="2">2</a>: Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphe.
+1. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
+1. <a name="2"></a>Download [HelloWorld.crg](HelloWorld.crg) and open it in your Choregraphe.
+2. <a name="3"></a>Download [WalkSay.crg](Walksay.crg) and open it in your Choregraphe.
+3. [Documentation on Choregraphe Menus, Panels and Toolbar](http://doc.aldebaran.com/1-14/software/choregraphe/interface.html)
+4. [Documentation on Choregraphe Box libraries panel](http://doc.aldebaran.com/1-14/software/choregraphe/panels/box_libraries_panel.html)
+5. [Documentation on Choregraphe Flow diagram Panel](http://doc.aldebaran.com/1-14/software/choregraphe/panels/flow_diagram_panel.html)
+6. <a name="3"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
 
 <h3 align="right"><a href="README2.md" >Next</a><h3>
