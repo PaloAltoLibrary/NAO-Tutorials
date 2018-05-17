@@ -32,14 +32,11 @@ In choregraphe, look at the box libraries panel. Search and drag four boxes to t
 * ***Choices*** 
 * ***Set Language***
 * ***Switch Cases***
-* ***Say***
 * ***Goto Posture*** (drag and drop two of these)
 
 Next, we will configure the boxes a bit. 
 
 Double click the Choices box. This will open up the two boxes inside it. In the Localized Text box, selelct language "Engish", enter a question the robot will ask, like "Do you like chocolate?". Click the <img src="readmeImages/wrench.png" width=20 /> wrench button of the other box, theChoice box. By default, the word list is set to “yes" and "no”. The default threshold is set to 30%. The robot won't recognize a word if it is not sure enough. If you want Speech Recognition to be more tolerant, you can decrease the confidence level number.
-
-Double click the Say box, then in the "Localized Text" box, select the language to be "English", and in the input field, type in `Sorry, I do not understand`. We will use this box when NAO hear things it does not understand or is not sure. 
 
 Click `Root` on the top of the flow diagram panel to go back to the main view.
 
