@@ -27,7 +27,7 @@ When adjusting the pose of NAO, make sure that the weight of NAO is resting on b
 
  *Follow the instruction below or download the attached file for a quick start* <sup>[1](#1)</sup>
 
-The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
+The first thing to do as usual is to develop a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
 
 We will start a new program for a very simple task to make NAO hear and recognize two words, "yes" and "no". 
 
@@ -78,7 +78,7 @@ bring the Robot View panel to front. Make sure the robot is in a stand pose. If 
 
 Make the current frame marker at frame 15, right click it to open the dropdown menu, select `Save` and then `Whole body` to save the initial standing pose.
 
-Next, double click on one of arms of the virtual robot, you can now pose the arm in whatever way you want. 
+Next, double click on one arm of the virtual robot, you can now pose the arm in whatever way you want. 
 
 <img src="readmeImages/motion_arm.png" width=500 /> 
 
@@ -128,7 +128,9 @@ Save the project, and click the <img src="readmeImages/play.png" width=20 /> ***
 #### Exercise
 
 1. Explore with adding another behavior layer to play the music (Tip: you will use the `Play sound` box, and you will need to test it with real robot).
-2. Make a new dance routine for NAO.
+2. Bring the "Play sound" box outside of the Timeline behavior, and put it directly inside the root work area. What is the difference? 
+3. Make NAO walk and turn direction a bit on the stage in between the repeated dance movement. 
+4. Make a new dance routine for NAO, or 
 
 ---
 1. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
