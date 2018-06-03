@@ -17,8 +17,14 @@ Parameters | Direction
 Distance X | Positive value means moving forward, negative means backward
 Distance Y | Positive value means moving left, negative means right
 Theta | Positive value means turning anticlockwise, negative means clockwise
-The units of distance parameters are meters.<img src="readmeImages/coordinate.png" width=800 />### Move Around
-The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
+
+The units of distance parameters are meters.
+
+<img src="readmeImages/coordinate.png" width=800 />
+
+### Move Around
+
+The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
 
 We will start a new program for a very simple task to make NAO walk. 
 
@@ -60,11 +66,12 @@ Make sure Choreograph is connected to the virutal robot. Click the the <img src=
 
 1. Imagine the robot's coordinate is at (0,0), try to set up the first ***Walk To*** box, so the robot will move to a spot that is 1 meter to the right and half meter forward.
 2. Add another ***Walk To*** box to the flow diagram panel. Use trigonomitry to compute what angle the robot should turn and how far it should walk in order for the robot to go back to (0,0). Set the second box up, and run the behavior to see if the robot walks away and returns to the original spot.
-3. Having NAO walk in square, triangle, or another different type of polygon.
+3. Having NAO walk in square, triangle, or another different type of polygon.<sup>4</sup>
 
 ---
 1. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
 1. <a name="2"></a>Download [Walk](Walk.crg) and open it in your Choregraphe.
 1. <a name="3"></a>[Google Scholar papers on causes of odometry erros](https://scholar.google.com/scholar?q=causes+of+odometry+error&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwjd5Z_JtNbaAhXJwFQKHbiCDdwQgQMIJzAA)
+1. <a name="4"><a>Download [Walk in Shapes](twalk.crg) and open it in your Choregraphe to get a pre-configuered "Walk in Shapes" box. (This was mainly developed for the workshop on Jun 3 2018)
 
 <h3 align="right"><a href="README3.md" >Next</a><h3>
