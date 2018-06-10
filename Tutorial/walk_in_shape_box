@@ -27,7 +27,7 @@ class MyClass(GeneratedClass):
             self.motion.moveTo(self.getParameter("Distance X (m)"),
             self.getParameter("Distance Y (m)"),
             0)
-            self.motion.moveTo(0,0, (int(p)-2) * almath.PI / int(p))
+            self.motion.moveTo(0,0, 2* almath.PI - (int(p)-2) * almath.PI / int(p))
 
         # The move is finished so output
         realEndPosition = almath.Pose2D(self.motion.getRobotPosition(False))
