@@ -24,10 +24,11 @@ class MyClass(GeneratedClass):
         self.motion.setMoveArmsEnabled(enableArms, enableArms)
         repeat = 0
         for repeat in range(int(p)):
+            self.motion.moveTo(0,0,  almath.PI - (int(p)-2) * almath.PI / int(p))
             self.motion.moveTo(self.getParameter("Distance X (m)"),
             self.getParameter("Distance Y (m)"),
             0)
-            self.motion.moveTo(0,0,  almath.PI - (int(p)-2) * almath.PI / int(p))
+            
 
         # The move is finished so output
         realEndPosition = almath.Pose2D(self.motion.getRobotPosition(False))
