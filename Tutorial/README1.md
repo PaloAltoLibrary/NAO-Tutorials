@@ -14,7 +14,7 @@ The beauty of Choregraphe lies in that you do not necessarily need a real robot 
 For Palo Alto City Library users, please follow the steps to download and install Choregraphe on your own computer:
 
 1. Visit the [Aldebaran website](https://aldebaran.com/en) choose sign in then create an account.
-2. After creating an account, download the Choreographe software.
+2. After creating an account, download [the Choreographe 2.1.4 for **NAOqi 2.1** [ NAO V5 & V4 ]](https://community.ald.softbankrobotics.com/en/resources/software/former-nao-versions-choregraphe-suite) specific for your OS system.
 3. Enter your [license key](https://library.cityofpaloalto.org/get-started-with-nao-robot/) during the installation of the software.
 
 ## Basics of Choregraphe
@@ -66,7 +66,7 @@ Finally, click the <img src="readmeImages/play.png" width=20 /> ***play button**
 Click the <img src="readmeImages/save.png" width=20 /> ***save button*** to save the project, and rename the project as "Hello World". It is always a good habit to constantly save the project during programming.
 
  *Related Resource* <sup>[1](#1)</sup>
- 
+
 ### Make NAO Say Anything
 
 We will do this by modifying the previous project.
@@ -97,7 +97,7 @@ Click the <img src="readmeImages/play.png" width=20 /> ***play button*** on the 
 
  *Related Resource* <sup>[3](#3)</sup>
 
- 
+
 ## Exercise
 
 * Try to click the <img src="readmeImages/wrench.png" width=20 /> ***wrench button*** on each of the boxes, and play around with the parameters to get slightly different behaviors.

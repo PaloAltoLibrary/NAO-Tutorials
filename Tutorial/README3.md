@@ -6,6 +6,8 @@
 * Know how to perform speech recognition on NAO
 * Know how to set up threshold of speech recoginition
 * Know how to create a conversation with NAO
+* Know how to set different voices for NAO
+* Know how to import/export box libraries.
 
 Anytime you have difficulty to read the interface of Choregraphe, please refer to the [interface graph in Tutorial 1](https://github.com/PaloAltoLibrary/NAO-Tutorials/blob/master/Tutorial%201/README.md#basics-of-choregraphe).
 
@@ -22,8 +24,11 @@ However, unlike our ears that listen for sounds all the time, NAO has to be prog
 
 In order to do this, we need to teach NAO some words or even a dictionary, so it can express what it hears in words. The Words can be as simple as "yes" and "no". Once it captures the word, we can further use conditional programming to ask nao to carry out new behaviors. 
 
-For example, NAO asks "Do you like chocolate?". If I answer "Yes", it will blink his ear LEDs. If I answer "no", it will blink his eye LEDs.### Speech Recognition in Choregraphe
-The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
+For example, NAO asks "Do you like chocolate?". If I answer "Yes", it will blink his ear LEDs. If I answer "no", it will blink his eye LEDs.
+
+### Speech Recognition in Choregraphe
+
+The first thing to do as usual is to develope a new applilcation in Choregraphy. Click the <img src="readmeImages/new.png" width=20 /> ***new project button*** on the tool bar. This will open a new blank project<sup>[1](#1)</sup>. 
 
 We will start a new program for a very simple task to make NAO hear and recognize two words, "yes" and "no". 
 
@@ -84,10 +89,16 @@ The DLG file represents the Dialog topic and registering the supported languages
 	
 	u:(~greetings) ~greetings
 	u:(joke_q) yes. ~joke
-	
+
  *Related Resource* <sup>[3](#3)</sup>
 
 Click the the <img src="readmeImages/play.png" width=20 /> ***play button*** on the tool bar and see the result. If you are connecting to a virtual robot, you can double click the input buttons to mimick the behavior. Then bring up the Diaglog box where you can enter text to have conversation with the virtual robot.
+
+### Set Different Voices for NAO
+
+I made a box that you can easily change parameters to get different voices for NAO. Download the [setvoice.cbl](setvoice.cbl) file. Inside Choregraphe, click <img src="readmeImages/openfolder.png" width=30 /> ***Open box library button*** in the _Box Libraries_ panel to open the cbl file where you saved it. After that, you will be able to use the box just like how you use the prebuilt boxes in the _Box Libraries_ panel.
+
+This box comes in handy if you want to make NAO tell a story and plays different characters by speaking in different tones. 
 
 #### Exercise
 
@@ -99,10 +110,11 @@ Click the the <img src="readmeImages/play.png" width=20 /> ***play button*** on 
 
 #### Reference
 3. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
-1. <a name="2"></a>Download [SpeechRec](SpeechRec.crg) and open it in your Choregraphe.
-2. <a name="3"></a>Download [Dialog](Dialog.crg) and open it in your Choregraphe.
-2. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/alspeechrecognition.html">Documentation on Speech recognition</a>
-3. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog.html">Documentation on Diaglog</a>
-4. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog_syntax_toc.html">Documentation on QiChat (syntax for topics and rules used by Dialog)</a> 
+4. <a name="2"></a>Download [SpeechRec](SpeechRec.crg) and open it in your Choregraphe.
+5. <a name="3"></a>Download [Dialog](Dialog.crg) and open it in your Choregraphe.
+6. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/alspeechrecognition.html">Documentation on Speech recognition</a>
+7. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog.html">Documentation on Diaglog</a>
+8. <a href="http://doc.aldebaran.com/2-1/naoqi/audio/dialog/aldialog_syntax_toc.html">Documentation on QiChat (syntax for topics and rules used by Dialog)</a> 
+9. [Set voice box by Dan Lou](setvoice.cbl)
 
 <h3 align="right"><a href="README4.md" >Next</a><h3>
