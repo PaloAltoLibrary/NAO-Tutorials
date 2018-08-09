@@ -20,8 +20,12 @@ By defining a sequence of keyframes in a timeline, you can make the robot dance.
 
 ### Balance NAO
 
-When adjusting the pose of NAO, make sure that the weight of NAO is resting on both feet. NAO is less stable if it rests on single leg.One way to test the weight distribution is to try to move the foot while stiffness is on. If there is weight resting on that foot, then it will be considerably more difficult to move the foot. The foot will feel “heavier” than if no weight was resting on it.
-### Make NAO Perform Dance Routine
+When adjusting the pose of NAO, make sure that the weight of NAO is resting on both feet. NAO is less stable if it rests on single leg.
+
+One way to test the weight distribution is to try to move the foot while stiffness is on. If there is weight resting on that foot, then it will be considerably more difficult to move the foot. The foot will feel “heavier” than if no weight was resting on it.
+
+
+### Make NAO Perform Dance Routine
 
 #### Step 1: Step up
 
@@ -127,12 +131,15 @@ Save the project, and click the <img src="readmeImages/play.png" width=20 /> ***
 
 #### Exercise
 
-1. Explore with adding another behavior layer to play the music (Tip: you will use the `Play sound` box, and you will need to test it with real robot).
-2. Bring the "Play sound" box outside of the Timeline behavior, and put it directly inside the root work area. What is the difference? 
-3. Make NAO walk and turn direction a bit on the stage in between the repeated dance movement. 
-4. Make a new dance routine for NAO, or 
+1. Download and import [MagicDance.pml](MagicDance.pml) in Choregraphe to examine the structure of the application. Questions: can you make a simple twist to the application to NAO keep exercising head and arms forever?
+2. Explore with adding another behavior layer to play the music (Tip: you will use the `Play sound` box, and you will need to test it with real robot).
+3. Bring the "Play sound" box outside of the Timeline behavior, and put it directly inside the root work area. What is the difference? 
+4. Make NAO walk and turn direction a bit on the stage in between the repeated dance movement. 
+5. Make a new dance routine for NAO, or make NAO tell a story
 
 ---
 1. <a name="1"></a>[Documentation on Choregraphe Project](http://doc.aldebaran.com/1-14/software/choregraphe/objects/choregraphe_project.html)
 1. <a name="2"></a>Download [Dance](Dance.crg) and open it in your Choregraphe.
 1. [Documentaton on NAO Joints](http://doc.aldebaran.com/1-14/family/nao_h25/joints_h25_v33.html?highlight=joint%20control)
+1. [MagicDance.pml](MagicDance.pml) 
+
