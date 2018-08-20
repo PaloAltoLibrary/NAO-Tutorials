@@ -131,7 +131,7 @@ Save the project, and click the <img src="readmeImages/play.png" width=20 /> ***
 
 #### Exercise
 
-1. Download and import [MagicDance.pml](MagicDance.pml) in Choregraphe to examine the structure of the application. Questions: can you make a simple twist to the application to NAO keep exercising head and arms forever?
+1. Download and import [TMagicDance.crg](TMagicDance.crg) in Choregraphe to examine the structure of the application. Questions: can you make a simple twist to the application to NAO keep exercising head and arms forever?
 2. Explore with adding another behavior layer to play the music (Tip: you will use the `Play sound` box, and you will need to test it with real robot).
 3. Bring the "Play sound" box outside of the Timeline behavior, and put it directly inside the root work area. What is the difference? 
 4. Make NAO walk and turn direction a bit on the stage in between the repeated dance movement. 
