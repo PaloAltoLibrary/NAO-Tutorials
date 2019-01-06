@@ -1,11 +1,14 @@
-
-# NAO Tutorials 
+# ROBO DOJO
 
 Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
 
-<img src="./Tutorial/readmeImages/naoprogram.jpg" width="500px"/>
+## Files
 
-*Coding with the Robot workshop at Palo Alto City Library*
+* Sample Application: [A personalized quiz](./Tutorial/PersonalityQuizRoboDojoEdition.crg)
+
+* Sample Application: [Joker](./Tutorial/Joker.crg)
+
+* [Tips and Tricks](./Tutorial/Handout_ Personality Quiz.pdf)
 
 ## About NAO
 
@@ -55,5 +58,3 @@ People with rudimentary programming skills can write Python code and add it to C
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
 
-
-<h3 align="right"><a href="Tutorial/README1.md">Next</a></h3>
