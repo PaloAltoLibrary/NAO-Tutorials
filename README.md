@@ -10,7 +10,7 @@ Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made p
 
 * Sample Application: [Joker](./Tutorial/Joker.crg)
 
-* [Tips and Tricks](./Tutorial/Handout_ Personality_Quiz.pdf)
+* [Tips and Tricks](./Tutorial/Handout_Personality_Quiz.pdf)
 
 ## About NAO
 
