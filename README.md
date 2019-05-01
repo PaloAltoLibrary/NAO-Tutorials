@@ -1,6 +1,6 @@
 # ROBO DOJO
 
-Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
+Tutorials for the humanoid NAO robot developed by Palo Alto City Library. 
 
 <img src="./Tutorial/readmeImages/naoprogram.jpg" width="500px"/>
 
@@ -60,3 +60,4 @@ People with rudimentary programming skills can write Python code and add it to C
 
 Expert developers can choose from - C++, Python, MatLab and many more through their SDK’s. 
 
+Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
