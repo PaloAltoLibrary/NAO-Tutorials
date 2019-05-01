@@ -1,7 +1,7 @@
 
 # NAO Tutorials 
 
-Tutorials for the humanoid NAO robot developed by Palo Alto City Library. Made possible through [Pacific Library Partnership Innovation Grant](http://www.plpinfo.org/innovation-grants/).
+Tutorials for the humanoid NAO robot developed by Palo Alto City Library.
 
 <img src="./Tutorial/readmeImages/naoprogram.jpg" width="500px"/>
 
