@@ -13,9 +13,7 @@ The beauty of Choregraphe lies in that you do not necessarily need a real robot 
 
 For Palo Alto City Library users, please follow the steps to download and install Choregraphe on your own computer:
 
-1. Visit the [Aldebaran website](https://aldebaran.com/en) choose sign in then create an account.
-2. After creating an account, download [the Choreographe 2.1.4 for **NAOqi 2.1** [ NAO V5 & V4 ]](https://community.ald.softbankrobotics.com/en/resources/software/former-nao-versions-choregraphe-suite) specific for your OS system.
-3. Enter your [license key](https://library.cityofpaloalto.org/get-started-with-nao-robot/) during the installation of the software.
+1. Go to the [Palo Alto City Library's Get Started with Robotics and Coding page](https://library.cityofpaloalto.org/get-started-with-nao-robot/) and follow the steps to install Choregraphe.
 
 ## Basics of Choregraphe
 
